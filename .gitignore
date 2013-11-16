@@ -1,0 +1,4 @@
+config.js
+lib/lite-config.js
+node_modules/*
+

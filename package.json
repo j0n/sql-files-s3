@@ -1,0 +1,17 @@
+{
+  "name": "s3-images",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jon",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "knox": "~0.8.6",
+    "mysql": "~2.0.0-alpha9",
+    "colors": "~0.6.2",
+    "async": "~0.2.9"
+  }
+}

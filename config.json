@@ -1,0 +1,14 @@
+module.exports = {
+	"db": {
+		"name": "qnekt",
+		"host": "127.0.0.1",
+		"user": "root",
+		"password": "kalle123"
+	},
+	"s3": {
+		"key": "asdf",
+		"secret": "asdf",
+		"bucket": "adf",
+		"endpoint": "asdf"
+	}
+}
