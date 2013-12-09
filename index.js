@@ -5,7 +5,6 @@ var fs = require('fs'),
 var configExists = function(cb) {
   fs.exists('./config.js', function(exists) {
     if (!exists || process.argv.splice(2).indexOf('-f') > -1){
-      console.log('setup shit');
       setup.setup(function(err) {
         if (err) { throw err }
         cb(true);
